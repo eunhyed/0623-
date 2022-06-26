@@ -1,0 +1,274 @@
+@charset "utf-8";
+
+*{
+    margin:0 auto;
+    padding:0;
+    font-family:"맑은 고딕";
+    color:#000;
+    list-style:none;
+}
+
+body{
+    width:1000px;
+    height:800px;
+}
+
+a{
+    display:block;
+    text-decoration:none;
+}
+
+header{
+    width:1000px;
+    height:80px;
+    float:left;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.logo{
+    width:300px;
+    height:50px;
+    float:left;
+    margin-left:30px;
+    margin-top:20px;
+}
+
+.menu{
+    width:650px;
+    height:80px;
+    float:right;
+    font-weight:bold;
+    display:flex;
+    position:relative;
+    text-align:center;
+}
+
+.navia1{
+    line-height:80px;
+}
+
+.navia2{
+    line-height:80px;
+}
+
+.navia3{
+    line-height:80px;
+}
+
+.navia4{
+    line-height:80px;
+}
+
+.navia1:hover{
+    border-radius:40px 80px;
+    border:1px solid red;
+    text-shadow:8px 3px 4px #848484;
+}
+
+.navia2:hover{
+    border-radius:40px 80px;
+    border:1px solid red;
+    text-shadow:8px 3px 4px #848484;
+}
+
+.navia3:hover{
+    border-radius:40px 80px;
+    border:1px solid red;
+    text-shadow:8px 3px 4px #848484;
+}
+
+.navia4:hover{
+    border-radius:40px 80px;
+    border:1px solid red;
+    text-shadow:8px 3px 4px #848484;
+}
+
+.submenu1{
+  position:absolute;
+  z-index:1;
+  font-size:15px;
+  width:162px;
+  margin-left:-40px;
+  line-height:35px;
+  display:none;
+}
+
+.submenu2{
+    position:absolute;
+    z-index:1;
+    font-size:15px;
+    width:162px;
+    margin-left:-40px;
+    line-height:35px;
+    display:none;
+  }
+
+  .submenu3{
+    position:absolute;
+    z-index:1;
+    font-size:15px;
+    width:162px;
+    margin-left:-40px;
+    line-height:35px;
+    display:none;
+  }
+
+  .submenu4{
+    position:absolute;
+    z-index:1;
+    font-size:15px;
+    width:162px;
+    margin-left:-40px;
+    line-height:35px;
+    display:none;
+  }
+
+.submenu1 li:hover{
+    background:red;
+}
+
+.submenu2 li:hover{
+    background:red;
+}
+
+.submenu3 li:hover{
+    background:red;
+}
+
+.submenu4 li:hover{
+    background:red;
+}
+
+.controller{
+    position:absolute;
+    top:250px;
+    margin-left:50px;
+    width:900px;
+}
+
+.controller button{
+    background-color: rgba(66, 66, 66, 0.11);
+    color: black;
+    text-align: center;
+    border-radius:10px 10px 10px 10px;
+    font-size: 2em;
+    cursor: pointer;
+    border:none;   
+    width:80px;
+}
+
+.next{
+    float:right;
+}
+
+.area {width:1000px; margin:auto; overflow:hidden;}
+
+.imgslide{
+    width:3000px;
+    height:350px;
+    /*float:left;*/
+    display:flex;
+    position:relative;
+    left:-1000px;
+
+}
+
+.imgslide a{
+    /*position:absolute;*/
+    width:1000px;
+}
+
+.content{
+    width:1000px;
+    height:200px;
+    float:left;
+    margin-top:30px;
+    position:relative;
+}
+
+.a{
+    width:400px;
+    height:200px;
+    float:left;
+}
+
+.a img{
+    display:flex;
+    float:left;
+    margin-right:10px;
+}
+
+.imgtext{
+    width:110px;
+    font-size:10px;
+    font-weight:bold;
+    margin-top:90px;
+    margin-left:-127px;
+    position:absolute;
+    text-align:center;
+}
+
+h2{
+    font-size:18px;
+    color:rgb(79, 95, 118);
+    text-align:center;
+    width:100px;
+    margin-left:0px;
+    margin-bottom:20px;
+    border: 1px solid transparent;
+    border-radius:10px;
+    background-image: linear-gradient(#fff, #fff), linear-gradient(to right, rgb(255, 83, 83) 0%,  rgb(255, 195, 84) 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.b{
+    width:300px;
+    float:left;
+    transition: all 0.2s linear;
+}
+
+.c{
+    width:300px;
+    float:left;
+    font-size:11px;
+    line-height:25px;
+}
+
+.c li:hover{
+    font-weight:bold;
+}
+
+.c span{
+    float:right;
+}
+
+hr{
+    width:300px;
+    border:0;
+    border-bottom:1px dotted #848484;
+}
+
+.b a:hover{
+    transform: scale(1.1);
+}
+
+footer{
+    width:1000px;
+    height:90px;
+    float:left;
+    font-size:10px;
+    line-height:20px;
+    background:#eee;
+
+}
+
+.bottom{
+    padding:15px;
+}
+
+.familysite{
+    float:right;
+    margin-top:-40px;
+}
